@@ -229,3 +229,11 @@
 # else:
 #     print("login unsuccessful")
 
+# Write a program to check whether a person is eligible to vote (age ≥ 18).
+
+# age = int(input("Enter age:"))
+
+# if age >= 18 :
+#     print("eligible")
+# else:
+#     print("not eligible")
