@@ -216,6 +216,7 @@
 # else:
 #     print("F")
 
+
 # WAP to enter username and password and check whether the user can log in or not.
 
 # username = "admin"
@@ -237,3 +238,70 @@
 #     print("eligible")
 # else:
 #     print("not eligible")
+
+
+# username="admin"
+# password="admin123"
+
+# if username =='admin':
+#     if password =='admin123':
+#         print("login successful")
+#     else:
+#         print("incorrect password")
+# else:
+#     print("username not found")  
+
+
+# print("============welcome to computer bazar============")
+# print("1.Dell(Rs 20000) 2.HP(Rs 25000) 3.Lenovo(Rs 30000) 4.Apple(Rs 35000)")
+# option =int(input("Select your option:"))
+# if option==1:
+#     qu =int(input("Enter quamtity:"))
+#     name =input("Enter your name:")
+#     total=20000*qu
+#     print(f"Hello {name}")
+#     print(f"Total amount: {total}")
+# elif option==2:
+#     qu =int(input("Enter quantity:"))
+#     name=input("Enter your name:")
+#     total=25000*qu
+#     print(f"Hello {name}")
+#     print(f"Total amount: {total}")
+# elif option==3:
+#     qu =int(input("Enter quantity:"))
+#     name=input("Enter your name:")
+#     total=30000*qu
+#     print(f"Hello {name}")
+#     print(f"Total amount: {total}")
+# elif option==4:
+#     qu =int(input("Enter quantity:"))
+#     name=input("Enter your name:")
+#     total=35000*qu
+#     print(f"Hello {name}")
+#     print(f"Total amount: {total}")    
+# else:
+#     print("invalid option")
+
+
+# print("==========Welcome to ATM==========")
+# pin = int(input("Enter your pin: "))
+# if pin==1234:
+#     amount=10000
+#     print("1. Withdraw 2. Balance Enquiry")
+#     option =int(input("Select your option: "))
+#     if option==1:
+#         wamount=int(input("Enter amount to withdraw: "))
+#         if wamount>amount:
+#             print("insufficent balance")
+#         else:
+#             namount =amount - wamount
+#             print(f"Please collect your cash")
+#             print(f"Withdrawn amount is: {wamount}")
+#             print(f"Your remaining balance is: {namount}")
+#     elif option==2:
+#         print(f"your balance is {amount}")
+#     else:
+#         print("Invalid option")
+# else:
+#     print("Incorrect pin") 
+
