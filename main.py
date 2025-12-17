@@ -373,3 +373,18 @@
 # print(f"Packing price: {packing_price}")
 # print(f"Tax amount: {tax_amount}")
 # print(f"Grand total: {grand_total}")
+
+# users=[
+#     {"username":"admin","password":"admin123"},
+#     {"username":"harry","password":"harry123"}
+# ]
+
+# username=input("Enter username: ")
+# password=input("Enter password: ")
+
+# if username==users[0]['username'] and password==users[0]['password']:
+#     print("Login successful.")
+# elif username==users[1]['username'] and password==users[1]['password']:
+#     print("Login successful.")
+# else:
+#     print("Login unsuccessful.")
