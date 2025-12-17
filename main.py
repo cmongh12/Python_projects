@@ -388,3 +388,21 @@
 #     print("Login successful.")
 # else:
 #     print("Login unsuccessful.")
+
+# distance = int(input("Enter distance in km: "))
+
+# fare=0
+# if distance <=5:
+#     fare=20
+# elif distance <=10:
+#     fare= 40
+# elif distance <=15:
+#     fare=60
+# elif distance <=20:
+#     fare=80
+# elif distance <=25:
+#     fare=100
+# else:
+#     fare = 120
+
+# print(f"Total fare is: Rs {fare}")
