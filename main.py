@@ -305,3 +305,71 @@
 # else:
 #     print("Incorrect pin") 
 
+
+# print("===============Welcome to compter bazaar==============")
+# print("1. Dell(Rs 25000)  2.HP(Rs 30000)  3.Lenovo(Rs 35000)  4. Apple(Rs40000)")
+# option = int(input("Select your option:"))
+# productname=''
+# dell_price=0
+# hp_price=0
+# lenovo_price=0
+# apple_price=0
+# if option==1:
+#     qu = int(input("Enter quantity:"))
+#     dell_price=qu*25000
+#     productname='Dell'
+# elif option==2:
+#     qu = int(input("Enter quantity:"))
+#     hp_price=qu*30000
+#     productname='HP'
+# elif option==3:
+#     qu = int(input("Enter quantity:"))
+#     lenovo_price=qu*35000
+#     productname='Lenovo'
+# elif option==4:
+#     qu = int(input("Enter quantity:"))
+#     apple_price=qu*40000
+#     productname='Apple'
+# else:
+#     print("Invalid option")
+
+
+
+
+# print("Delivery option: 1. Home(Rs 1000) 2. Store pickup (Rs 0)")
+# delivery_option = int(input("Select your delivery option:"))
+# delivery_price=0
+
+# if delivery_option==1:
+#     delivery_price=1000
+
+# print("Packing option : 1. Plastic(Rs 1000) 2. Bag(Rs 2000) 3. gift box (Rs 3000)")
+# packing_price=0
+# packing_option=int(input("Select your packing option:"))
+# if packing_option==1:
+#     packing_price=1000
+# elif packing_option==2:
+#     packing_price=2000
+# elif packing_option==3:
+#     packing_price=3000
+
+# print("Location 1. KTM(Rs:13%) 2.BKT(Rs:0) 3.LTP(Rs:0)")
+
+# total = dell_price+ hp_price + lenovo_price + apple_price
+# tax_amount=0
+# location_option=int(input("Select your location option:"))
+# if location_option==1:
+#     tax_amount=total*0.13
+
+# name =input("Enter your name:")
+# grand_total= total + delivery_price + packing_price + tax_amount
+
+
+# print("------------Invoice--------------")
+# print(f"Customer name: {name}")
+# print(f"Product name: {productname}")
+# print(f"Total amount: {total}")
+# print(f"Delivery price: {delivery_price}")
+# print(f"Packing price: {packing_price}")
+# print(f"Tax amount: {tax_amount}")
+# print(f"Grand total: {grand_total}")
