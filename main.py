@@ -406,3 +406,24 @@
 #     fare = 120
 
 # print(f"Total fare is: Rs {fare}")
+
+#wap to calculate bus fare.Charge rs 50 for every 10 km
+
+# distance = int(input("Enter distance in km: "))
+
+# fare = 0
+
+# if distance <=10:
+#     fare = 50
+# elif distance <= 20:
+#     fare = 100
+# elif distance <=30:
+#     fare = 150
+# elif distance <=40:
+#     fare = 200
+# elif distance <=50:
+#     fare = 250
+# else:
+#     fare=300
+
+# print(f"Total fare is: Rs {fare}")
