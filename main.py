@@ -125,11 +125,33 @@
 # | `is`     | `a is b`     |
 # | `is not` | `a is not b` |
 
+# wap to enter five subjects marks and calculate total , average and percentage
 
+# nep = int(input("Enter marks of Nepali: "))
+# eng = int(input("Enter marks of English: "))
+# math = int(input("Enter marks of Math: "))
+# sci = int(input("Enter marks of Science: "))
+# soc = int(input("Enter marks of Social: "))
 
+# total = nep + eng + math + sci + soc
+# average = total / 5
+# percentage = (total / 500) * 100
 
+# print(f"Total Marks: {total}")
+# print(f"Average Marks: {average}")
+# print(f"Percentage: {percentage}")
 
+# WAP to enter rupees and covert it into dollar.
+# rupees = int(input("rupees: "))
+# amount = rupees / 140
+# print(f"amount in dollar: {amount}")
 
+# p,t,r = enter principal, time, rate and calculate simple interest
+# p = int(input("Enter principal amount: "))
+# t = int(input("Enter time: "))
+# r = int(input("Enter rate: "))
+# si = (p*t*r)/100
+# print("simple interest =",si)
 
 
 # x=30
@@ -305,35 +327,34 @@
 # else:
 #     print("Incorrect pin") 
 
+# WAP to design a computer bazaar billing system with delivery,packing and tax options.
+
 
 # print("===============Welcome to compter bazaar==============")
 # print("1. Dell(Rs 25000)  2.HP(Rs 30000)  3.Lenovo(Rs 35000)  4. Apple(Rs40000)")
 # option = int(input("Select your option:"))
-# productname=''
-# dell_price=0
-# hp_price=0
-# lenovo_price=0
-# apple_price=0
+# productname=""
+# price = 0
+
 # if option==1:
 #     qu = int(input("Enter quantity:"))
-#     dell_price=qu*25000
+#     total=qu*25000
 #     productname='Dell'
 # elif option==2:
 #     qu = int(input("Enter quantity:"))
-#     hp_price=qu*30000
+#     total=qu*30000
 #     productname='HP'
 # elif option==3:
 #     qu = int(input("Enter quantity:"))
-#     lenovo_price=qu*35000
+#     total=qu*35000
 #     productname='Lenovo'
 # elif option==4:
 #     qu = int(input("Enter quantity:"))
-#     apple_price=qu*40000
+#     total=qu*40000
 #     productname='Apple'
 # else:
 #     print("Invalid option")
-
-
+#     exit()
 
 
 # print("Delivery option: 1. Home(Rs 1000) 2. Store pickup (Rs 0)")
@@ -342,6 +363,10 @@
 
 # if delivery_option==1:
 #     delivery_price=1000
+# elif delivery_option==2:
+#     delivery_price=0
+# else:
+#     print ("Invalid option")
 
 # print("Packing option : 1. Plastic(Rs 1000) 2. Bag(Rs 2000) 3. gift box (Rs 3000)")
 # packing_price=0
@@ -352,14 +377,21 @@
 #     packing_price=2000
 # elif packing_option==3:
 #     packing_price=3000
+# else:
+#     print("Invalid option")
 
 # print("Location 1. KTM(Rs:13%) 2.BKT(Rs:0) 3.LTP(Rs:0)")
 
-# total = dell_price+ hp_price + lenovo_price + apple_price
 # tax_amount=0
 # location_option=int(input("Select your location option:"))
 # if location_option==1:
 #     tax_amount=total*0.13
+# elif location_option==2:
+#     tax_amount=0
+# elif location_option==3:
+#     tax_amount=0
+# else:
+#     print("Invalid option")
 
 # name =input("Enter your name:")
 # grand_total= total + delivery_price + packing_price + tax_amount
@@ -388,6 +420,8 @@
 #     print("Login successful.")
 # else:
 #     print("Login unsuccessful.")
+
+# wap to calculate bus fare foe every 5 km charge rs 20.
 
 # distance = int(input("Enter distance in km: "))
 
