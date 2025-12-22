@@ -191,3 +191,113 @@
 # print(f"Salary: {salary}")
 # print(f"Bonus: {bonus}")
 # print(f"Total_salary: {total_salary}")
+
+
+# users=[
+#     {'username':'admin','password':'admin123'},
+#     {'username':'ram','password':'ram123'}
+# ]
+# username = input("Enter username: ")
+# password = input("Enter password: ")
+# if username==users[0]['username'] and password==users[0]['password']:
+#     print("Login  successful")
+# elif username==users[1]['username']and password==users[1]['password']:
+#     print("Login successful")
+# else:
+#     print("Login unsuccessful")
+
+
+# print("==================Welcome to bookstore===================")
+# users=[
+#     {'username':'admin','password':'admin123'},
+#     {'username':'alice','password':'alice123'}
+# ]
+# username = input("Enter username: ")
+# password = input("Enter password: ")
+
+# if username==users[0]['username']and password==users[0]['password']:
+#     print("Login successful")
+# elif username==users[1]['username']and password==users[1]['password']:
+#     print("Login successful")
+# else:
+#     print("Login unsuccessful")
+#     exit()
+
+# books=[
+#     {'title':'normal people','price':900},
+#     {'title':'when the coffee gets cold','price':1000}
+# ]
+# option = input("Do you want to buy  a book? (yes/no): ")
+# if  option=="yes":
+#     print("Available books: ")
+#     print("1. normal people - rs.900")
+#     print("2. when the coffee gets cold - rs.1000")
+#     choice= int(input("Enter the book number you want to buy (1/2): "))
+#     if choice==1:
+#         title='normal people'
+#         price=900
+#         print(f"You have bought {title} for rs. {price}")
+#         print("Thank you for shopping with us!")
+
+#     elif choice==2:
+#         title='when the coffee gets cold'
+#         price=1000
+#         print(f"You have bought {title} for rs.{price}")
+#         print("Thank you for shopping with us!")
+
+#     else:
+#         print("Invalid choice")
+        
+# elif option=="no":
+#     print("Thankyou for visiting our bookstore!")
+
+
+# WAP to ask for username and password if login successful ask user to choose a movie and print the selected name if login unsuccessful print access denied.
+
+
+# print("===============welcome to the cinema==================")
+
+# users=[
+#     {'username':'lisa','password':'lisa123'},
+#     {'username':'jen','password':'jenn123'}
+# ]
+
+# username=input("Enter username: ")
+# password=input("Enter password: ")
+
+# if username== users[0]['username'] and password== users[0]['password']:
+#     print("Login successful")
+
+# elif username== users[1]['username'] and password== users[1]['password']:
+#     print("Login successful")
+
+# else:
+#     print("Access denied")
+#     exit()
+
+# movies=[
+#     {'title':'Avatar','price':300},
+#     {'title':'Inception','price':350}
+# ]
+
+# print("Available movies")
+# print("1. Avatar - rs. 300")
+# print("2. Inception - rs. 350")
+
+# option= int(input("Choose one of the options above (1/2): "))
+# if option==1:
+#     title='Avatar'
+#     price=300
+#     print(f"you have bought tickets for {title} for rs. {price}")
+#     print("Thank you for booking with us!")
+# elif option==2:
+#     title='Inception'
+#     price=350
+#     print(f"you have bought tickets for {title} for rs. {price}")
+#     print("Thank you for booking with us!")
+# else:
+#     print("Invalid option")
+
+
+
+
