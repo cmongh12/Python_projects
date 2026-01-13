@@ -256,3 +256,20 @@
 
 # import tkinter
 
+# from datetime import datetime
+
+# jobs = [
+#     {'title':"python developer",'exp_date':'2026-02-12'},
+#     {'title':'java developer','exp_date':"2024-12-30"},
+#     {'title':'frontend developer','exp_date':'2025-09-18'}
+# ]
+
+# today = datetime.now().date()
+
+# for job in jobs:
+#     exp_date = datetime.strptime(job['exp_date'], "%Y-%m-%d").date()
+#     if exp_date >= today:
+#         print(job['title'],"Available")
+#     else:
+#         print(job['title'],"Not available(expired)")
+

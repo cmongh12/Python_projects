@@ -1,0 +1,10 @@
+name:apple,category:mobile phone,price:60000
+name:samsung,category:mobile phone,price:50000
+name:redmi,category:mobile phone,price:35000
+name:mac,category:laptop,price:80000
+name:dell,category:laptop,price:65000
+name:lenovo,category:laptop,price:70000
+name:sony,category:tv,price:85000
+name:samsung,category:tv,price:95000
+name:lg,category:tv,price:100000
+name:xiaomi,category:mobile phone,price:50000
